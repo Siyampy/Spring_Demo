@@ -15,6 +15,7 @@ public class Demo_Controller
 	{
 		return "display.jsp";
 	}
+//	Here we can also use the Annotation based Configuration instead of the xml
 	@RequestMapping("/add")
 	public ModelAndView add(HttpServletRequest rq,HttpServletResponse rs)
 	{
